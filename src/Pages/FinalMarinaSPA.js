@@ -48,7 +48,7 @@ const FinalMarinaSPA = () => {
                         textAlign = "text-center"
                         radiusRounded = ""
                         subtitle = "ΟΙ ΥΠΗΡΕΣΙΕΣ ΜΑΣ"
-                        title = "ΤΙ ΜΠΟΡΟΥΜΕ ΝΑ ΠΡΟΣΦΕΡΟΥΜΕ"
+                        title = "ΕΞΕΙΔΙΚΕΥΣΕΙΣ"
                         description = ""
                         />
                 </div>

@@ -43,8 +43,8 @@ const ServiceOne = ({textAlign, serviceStyle}) => {
                                 {val.icon}
                             </div>
                             <div className="content">
-                                {/* <h4 className="title w-600"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4> */}
-                                <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
+                                <h4 className="title w-600" dangerouslySetInnerHTML={{__html: val.title}}></h4>
+                                <p className="description b1 color-gray mb--0 text-justify " dangerouslySetInnerHTML={{__html: val.description}}></p>
                             </div>
                         </div>
                     </ScrollAnimation>

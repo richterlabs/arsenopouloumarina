@@ -66,8 +66,8 @@ const Elements = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Gallery With Lightbox"
-                                        title = "Gallery Style One."
+                                        subtitle = "ΓΚΑΛΕΡΙ"
+                                        title = "Ο ΧΩΡΟΣ ΜΑΣ"
                                         description = ""
                                     />
                                 </div>
