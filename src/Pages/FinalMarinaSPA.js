@@ -11,6 +11,7 @@ import Contact from '../Components/Contact';
 import AboutTwo from "../Components/AboutTwo";
 import FooterCustom from '../Components/FooterCustom';
 import Gallery from '../Components/Gallery';
+import { FiCheck } from "react-icons/fi";
 
 const FinalMarinaSPA = () => {
   return (
@@ -26,8 +27,17 @@ const FinalMarinaSPA = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="inner text-start">
-                            <h4 className="subtitle">ΕΞΩΔΙΚΑΣΤΙΚΗ  ΕΠΙΛΥΣΗ ΔΙΑΦΟΡΩΝ ΜΕ ΔΙΑΜΕΣΟΛΑΒΗΣΗ</h4>
-                            <h1 className="title display-one">Διεπιστημονικό Κέντρο  <br />Διαμεσολάβησης</h1>
+                            
+                            
+                            <h1 className="title display-one">ΔΙΕΠΙΣΤΗΜΟΝΙΚΟ ΚΕΝΤΡΟ  <br />ΔΙΑΜΕΣΟΛΑΒΗΣΗΣ</h1>
+                            <h4 className="subtitle">ΜΑΡΙΝΑ ΑΡΣΕΝΟΠΟΥΛΟΥ</h4>
+                    
+                                    <ul className="list-icon">
+                                        <li><span className="icon"><FiCheck /></span> διαπιστευμένη Διαμεσολαβήτρια στην Ελλάδα και στο Ηνωμένο Βασίλειο </li>
+                                        <li><span className="icon"><FiCheck /></span> Δικηγόρος με ευρεία εμπειρία, μέλος του Δικηγορικού Συλλόγου Λάρισας  </li>
+                                        <li><span className="icon"><FiCheck /></span> Εκπαιδεύτρια Διαμεσολαβητών στην Ελλάδα και την Κύπρο</li>
+
+                                    </ul> 
                             <div className="button-group mt--40 mt_sm--20">
                                 <a className="btn-default" href="#hero-button-contact-anchor">ΕΠΙΚΟΙΝΩΝΙΑ</a>
                             </div>
