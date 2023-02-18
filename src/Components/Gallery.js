@@ -53,69 +53,6 @@ const PopupData = [
     },
 ]
 
-const PopupData2 = [
-    {
-        id: "01",
-        image: "./images/portfolio/portfolio-01.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-01.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-03.jpg',
-            './images/portfolio/portfolio-04.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-05.jpg',
-        ],
-    },
-    {
-        id: "02",
-        image: "./images/portfolio/portfolio-02.jpg",
-        popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-        ],
-    },
-    {
-        id: "03",
-        image: "./images/portfolio/portfolio-03.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-03.jpg',
-        ],
-    },
-    {
-        id: "04",
-        image: "./images/portfolio/portfolio-04.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-04.jpg',
-        ],
-    },
-    {
-        id: "05",
-        image: "./images/portfolio/portfolio-04.jpg",
-        popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-        ],
-    },
-    {
-        id: "06",
-        image: "./images/portfolio/portfolio-05.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-05.jpg',
-        ],
-    },
-    {
-        id: "07",
-        image: "./images/portfolio/portfolio-06.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-06.jpg',
-        ],
-    },
-    {
-        id: "08",
-        image: "./images/portfolio/portfolio-01.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-01.jpg',
-        ],
-    },
-]
 
 const Elements = () => {
     return (

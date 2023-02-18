@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollTop from "./ScrollTop";
-import { FiGithub, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiInstagram } from "react-icons/fi";
 
 
 const FooterTwo = () => {
