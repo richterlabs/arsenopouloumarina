@@ -9,18 +9,13 @@ const PopupData = [
         image: "./images/compressed/DSC_2933.jpg",
         popupLink: [
             './images/portfolio/portfolio-01.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-03.jpg',
-            './images/portfolio/portfolio-04.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-05.jpg',
         ],
     },
     {
         id: "02",
         image: "./images/portfolio/portfolio-02.jpg",
         popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
+            './images/portfolio/portfolio-02.jpg',
         ],
     },
     {
@@ -41,7 +36,7 @@ const PopupData = [
         id: "05",
         image: "./images/portfolio/portfolio-04.jpg",
         popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
+            './images/portfolio/portfolio-02.jpg',
         ],
     },
     {
