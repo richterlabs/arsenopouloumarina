@@ -76,7 +76,7 @@ const FinalMarinaSPA = () => {
     <div id="mediation">
         <SlpitOne />{/* What is mediation */}
         <SlipFour />{/* Why us  */}
-        <SplitOneTwo/>{/* Mediation training  */}
+        {/* <SplitOneTwo/>Mediation training  */}
         <Separator />
     </div>
 

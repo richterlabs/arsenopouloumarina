@@ -8,42 +8,42 @@ const PopupData = [
         id: "01",
         image: "./images/compressed/office-1.JPG",
         popupLink: [
-            './images/portfolio/office-1.jpg',
+            './images/compressed/office-1.JPG',
         ],
     },
     {
         id: "02",
-        image: "./images/portfolio/portfolio-02.jpg",
+        image: "./images/compressed/office-2.JPG",
         popupLink: [
-            './images/portfolio/portfolio-02.jpg',
+            './images/compressed/office-2.JPG',
         ],
     },
     {
         id: "03",
-        image: "./images/portfolio/portfolio-03.jpg",
+        image: "./images/compressed/office-3.JPG",
         popupLink: [
-            './images/portfolio/portfolio-03.jpg',
+            './images/compressed/office-3.JPG',
         ],
     },
     {
         id: "04",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "./images/compressed/office-4.JPG",
         popupLink: [
-            './images/portfolio/portfolio-04.jpg',
+            './images/compressed/office-4.JPG',
         ],
     },
     {
         id: "05",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "./images/compressed/office-5.JPG",
         popupLink: [
-            './images/portfolio/portfolio-02.jpg',
+            './images/compressed/office-5.JPG',
         ],
     },
     {
         id: "06",
-        image: "./images/portfolio/portfolio-05.jpg",
+        image: "./images/compressed/office-6.JPG",
         popupLink: [
-            './images/portfolio/portfolio-05.jpg',
+            './images/compressed/office-6.JPG',
         ],
     },
 ]

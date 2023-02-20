@@ -15,7 +15,7 @@ const FooterTwo = () => {
                             {/* Start Single Widget  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
-                                    <h4 className="title">Επικοινωνία</h4>
+                                    <h4 className="title">Μενού</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
 
@@ -35,7 +35,7 @@ const FooterTwo = () => {
                             {/* Start Single Widget  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
-                                    <h4 className="title">Items</h4>
+                                    <h4 className="title">Επικοινωνία</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
                                             <li>+30 2410 532920,+30 6944918702 </li> <br></br>
