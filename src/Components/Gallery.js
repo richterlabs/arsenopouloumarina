@@ -6,7 +6,7 @@ import GalleryOne from "./GalleryOne";
 const PopupData = [
     {
         id: "01",
-        image: "./images/compressed/DSC_2933.jpg",
+        image: "./images/compressed/office-1.JPG",
         popupLink: [
             './images/portfolio/portfolio-01.jpg',
         ],
