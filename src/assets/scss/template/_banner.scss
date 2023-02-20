@@ -136,7 +136,7 @@
     &::before {
         position: absolute;
         height: 100%;
-        width: 40%;
+        width: 50%;
         opacity: 1;
         top: 0;
         left: 0;
@@ -596,7 +596,7 @@
     .inner {
         .subtitle {
             font-weight: 400;
-            font-size: 16px;
+            font-size: 26px;
             letter-spacing: 0.5px;
             position: relative;
             padding-right: 20px;
@@ -619,7 +619,7 @@
             font-family: var(--font-primary);
             margin-bottom: 25px;
             display: block;
-            font-size: 64px;
+            font-size: 42px;
             line-height: 1.4;
             color: var(--color-white);
 
