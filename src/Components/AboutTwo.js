@@ -8,7 +8,7 @@ const AboutTwo = () => {
                 <div className="row row--30 align-items-center">
                     <div className="col-lg-5">
                         <div className="thumbnail">
-                            <img className="w-100" src="./images/compressed/DSC_3129-Edit.jpg" alt="About Images" />
+                            <img className="w-100" src="./images/compressed/arsenopouloumarina.JPG" alt="Marina Arsenopoulou" />
                         </div>
                     </div>
 
