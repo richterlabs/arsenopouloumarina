@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollTop from "./ScrollTop";
 import { FiGithub, FiInstagram } from "react-icons/fi";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const FooterTwo = () => {
@@ -17,8 +18,14 @@ const FooterTwo = () => {
                                     <h4 className="title">Επικοινωνία</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
-                                            <li>One</li>
-                                            <li>Two</li>
+
+                        <li className="has-droupdown"><AnchorLink href='#home'>Αρχική</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#services'>Υπηρεσίες</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#mediation'>Διαμεσολάβηση</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#practitioner'>Η Διαμεσολαβήτρια</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#office'>Ο Χώρος</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#contact'>Επικοινωνία</AnchorLink></li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -31,8 +38,10 @@ const FooterTwo = () => {
                                     <h4 className="title">Items</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
-                                            <li>One</li>
-                                            <li>Two</li>
+                                            <li>+30 2410 532920,+30 6944918702 </li> <br></br>
+                                            <li>arsenopouloumarina@gmail.com</li><br></br>
+                                            <li>Ασκληπιού 17 Λάρισα ΤΚ 41222</li>
+
                                         </ul>
                                     </div>
                                 </div>
