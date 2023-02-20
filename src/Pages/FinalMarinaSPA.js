@@ -22,7 +22,7 @@ const FinalMarinaSPA = () => {
 
 
     <div id="home">
-        <div className="slider-area slider-style-5 bg-overlay-solid height-850 bg_image" data-black-overlay="3" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/compressed/hero-image.jpg)`}}>
+        <div className="slider-area slider-style-5 bg-overlay-solid height-850 bg_image" data-black-overlay="3" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/compressed/DSC_2973.jpg)`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
