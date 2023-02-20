@@ -9,7 +9,7 @@ const SlpitOne = () => {
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    <img src="./images/split/split-01.jpg" alt="split Images" />
+                                    <img src="./images/compressed/whatismediation.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">

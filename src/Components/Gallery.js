@@ -6,7 +6,7 @@ import GalleryOne from "./GalleryOne";
 const PopupData = [
     {
         id: "01",
-        image: "./images/portfolio/portfolio-01.jpg",
+        image: "./images/compressed/DSC_2933.jpg",
         popupLink: [
             './images/portfolio/portfolio-01.jpg',
             'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
