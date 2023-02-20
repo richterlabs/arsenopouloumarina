@@ -8,7 +8,7 @@ const PopupData = [
         id: "01",
         image: "./images/compressed/office-1.JPG",
         popupLink: [
-            './images/portfolio/portfolio-01.jpg',
+            './images/portfolio/office-1.jpg',
         ],
     },
     {
