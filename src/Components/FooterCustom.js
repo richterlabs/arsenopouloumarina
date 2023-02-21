@@ -22,6 +22,8 @@ const FooterTwo = () => {
                         <li className="has-droupdown"><AnchorLink href='#home'>Αρχική</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#services'>Υπηρεσίες</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#mediation'>Διαμεσολάβηση</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#why-us'>Γιατί Εμάς</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#mediationtraining'>Εκπαίδευση Διαμεσολαβητών</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#practitioner'>Η Διαμεσολαβήτρια</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#office'>Ο Χώρος</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#contact'>Επικοινωνία</AnchorLink></li>
