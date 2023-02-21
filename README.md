@@ -1,3 +1,6 @@
+A professional lawyer website created on React, deployed on Vercel. 
+
+
 
 <img
   src="./Marina-Arsenopoulou-full-page-layout.png"
