@@ -33,9 +33,9 @@ const FinalMarinaSPA = () => {
                             <h4 className="subtitle">ΜΑΡΙΝΑ ΑΡΣΕΝΟΠΟΥΛΟΥ</h4>
                     
                                     <ul className="list-icon">
-                                        <li><span className="icon"><FiCheck /></span>Διαπιστευμένη Διαμεσολαβήτρια στην Ελλάδα και στο Ηνωμένο Βασίλειο. </li>
-                                        <li><span className="icon"><FiCheck /></span>Δικηγόρος με ευρεία εμπειρία, μέλος του Δικηγορικού Συλλόγου Λάρισας.  </li>
-                                        <li><span className="icon"><FiCheck /></span>Εκπαιδεύτρια Διαμεσολαβητών στην Ελλάδα και την Κύπρο. </li>
+                                        <li><span className="icon"><FiCheck /></span>Διαπιστευμένη Διαμεσολαβήτρια στην Ελλάδα και στο Ηνωμένο Βασίλειο </li>
+                                        <li><span className="icon"><FiCheck /></span>Δικηγόρος με ευρεία εμπειρία, μέλος του Δικηγορικού Συλλόγου Λάρισας  </li>
+                                        <li><span className="icon"><FiCheck /></span>Εκπαιδεύτρια Διαμεσολαβητών στην Ελλάδα και την Κύπρο </li>
 
                                     </ul> 
                             <div className="button-group mt--40 mt_sm--20">
@@ -76,7 +76,7 @@ const FinalMarinaSPA = () => {
     <div id="mediation">
         <SlpitOne />{/* What is mediation */}
         <SlipFour />{/* Why us  */}
-        {/* <SplitOneTwo/>Mediation training  */}
+        <SplitOneTwo/>{/* Mediation training  */}
         <Separator />
     </div>
 

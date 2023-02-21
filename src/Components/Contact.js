@@ -16,7 +16,7 @@ const Contact = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = "ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ"
-                                        title = "Επικοινωνία"
+                                        title = "ΕΠΙΚΟΙΝΩΝΙΑ"
                                         description = ""
                                     />
                                 </div>
