@@ -16,7 +16,7 @@ import { FiCheck } from "react-icons/fi";
 const FinalMarinaSPA = () => {
   return (
     <div>
-        <SEO title="Finance" />
+        <SEO title="Marina Arsenopoulou - Kentro Diamesolavisis" />
         <main className="page-wrapper">
         <CustomHeader btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
