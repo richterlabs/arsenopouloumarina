@@ -49,7 +49,9 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
+                                <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                 <p>Powered by: <br></br> Richterlabs</p>
+                                </div>
                             </div>
                         </div>
                     </div>
