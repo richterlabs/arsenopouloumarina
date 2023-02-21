@@ -1,5 +1,3 @@
-import './App.css';
-import AboutTwo from './Components/AboutTwo'
 import './assets/scss/style.scss';
 import FinalPage from './Pages/FinalMarinaSPA'
 

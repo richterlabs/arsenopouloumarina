@@ -1,8 +1,8 @@
 import {useState, useRef} from "react";
 import { FiMenu } from "react-icons/fi";
-import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import MobileMenu from './MobileMenu'
 
 const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -31,18 +31,14 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                             <div className="header-left d-flex">
   
                                 <nav className="mainmenu-nav d-none d-lg-block">
-                                            <ul className="mainmenu">
-
-                        
-                        <li className="has-droupdown"><AnchorLink href='#home'>Αρχική</AnchorLink></li>
+                                            <ul className="mainmenu link-hover">
                         <li className="has-droupdown"><AnchorLink href='#services'>Υπηρεσίες</AnchorLink></li>
-                        <li className="has-droupdown"><AnchorLink href='#mediation'>Διαμεσολάβηση</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#why-us'>Γιατί Εμάς</AnchorLink></li>
+                        <li className="has-droupdown"><AnchorLink href='#mediationtraining'>Εκπαίδευση Διαμεσολαβητών</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#practitioner'>Η Διαμεσολαβήτρια</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#office'>Ο Χώρος</AnchorLink></li>
                         <li className="has-droupdown"><AnchorLink href='#contact'>Επικοινωνία</AnchorLink></li>
-
-
-        </ul>
+                         </ul>
                                 </nav>
                             </div>
                         </div>
@@ -53,13 +49,15 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                <div className="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <p>Powered by: <br></br> Richterlabs</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-            {/* <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler}  /> */}
+            <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler}  />
         </>
     )
 }

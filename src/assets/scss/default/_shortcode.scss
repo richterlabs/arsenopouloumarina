@@ -67,6 +67,7 @@ font-family: 'Inter', sans-serif;
 
 .bg_image {
     @extend %bgImagePosition;
+
 }
 .bg_image_fixed {
     background-attachment: fixed !important;

@@ -136,13 +136,16 @@
     &::before {
         position: absolute;
         height: 100%;
-        width: 40%;
+        width: 50%;
         opacity: 1;
         top: 0;
         left: 0;
         content: "";
         background: var(--color-dark);
         z-index: -1;
+        @media #{$sm-layout} {
+                width: 100%;
+            }
     }
 
     &::after {
@@ -594,14 +597,25 @@
 // Slider Style 5
 .slider-style-5 {
     .inner {
+        .list-icon{
+            @media #{$sm-layout} {
+                    font-size: 18px;
+                    color: black !important;
+                }
+        }
+
         .subtitle {
             font-weight: 400;
-            font-size: 16px;
+            font-size: 26px;
             letter-spacing: 0.5px;
             position: relative;
             padding-right: 20px;
             display: inline-block;
             color: var(--color-white);
+            @media #{$sm-layout} {
+                    font-size: 18px;
+                    color:black!important;
+                }
 
             &::after {
                 position: absolute;
@@ -619,12 +633,12 @@
             font-family: var(--font-primary);
             margin-bottom: 25px;
             display: block;
-            font-size: 64px;
+            font-size: 42px;
             line-height: 1.4;
-            color: var(--color-white);
+            color: black!important;
 
             @media #{$sm-layout} {
-                font-size: 40px;
+                font-size: 26px;
             }
         }
     }

@@ -11,23 +11,33 @@ import Contact from '../Components/Contact';
 import AboutTwo from "../Components/AboutTwo";
 import FooterCustom from '../Components/FooterCustom';
 import Gallery from '../Components/Gallery';
+import { FiCheck } from "react-icons/fi";
 
 const FinalMarinaSPA = () => {
   return (
     <div>
-        <SEO title="Finance" />
+        <SEO title="Marina Arsenopoulou - Kentro Diamesolavisis" />
         <main className="page-wrapper">
         <CustomHeader btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
 
     <div id="home">
-        <div className="slider-area slider-style-5 bg-overlay-solid height-850 bg_image" data-black-overlay="3" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-13.jpg)`}}>
+        <div className="slider-area slider-style-5 bg-overlay-solid height-850 bg_image" data-black-overlay="3" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/compressed/hero-image.jpg)`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="inner text-start">
-                            <h4 className="subtitle">ΕΞΩΔΙΚΑΣΤΙΚΗ  ΕΠΙΛΥΣΗ ΔΙΑΦΟΡΩΝ ΜΕ ΔΙΑΜΕΣΟΛΑΒΗΣΗ</h4>
-                            <h1 className="title display-one">Διεπιστημονικό Κέντρο  <br />Διαμεσολάβησης</h1>
+                            
+                            
+                            <h1 className="title display-one">ΔΙΕΠΙΣΤΗΜΟΝΙΚΟ ΚΕΝΤΡΟ  <br />ΔΙΑΜΕΣΟΛΑΒΗΣΗΣ</h1>
+                            <h4 className="subtitle">ΜΑΡΙΝΑ ΑΡΣΕΝΟΠΟΥΛΟΥ</h4>
+                    
+                                    <ul className="list-icon">
+                                        <li><span className="icon"><FiCheck /></span>Διαπιστευμένη Διαμεσολαβήτρια στην Ελλάδα και στο Ηνωμένο Βασίλειο </li>
+                                        <li><span className="icon"><FiCheck /></span>Δικηγόρος με ευρεία εμπειρία, μέλος του Δικηγορικού Συλλόγου Λάρισας  </li>
+                                        <li><span className="icon"><FiCheck /></span>Εκπαιδεύτρια Διαμεσολαβητών στην Ελλάδα και την Κύπρο </li>
+
+                                    </ul> 
                             <div className="button-group mt--40 mt_sm--20">
                                 <a className="btn-default" href="#hero-button-contact-anchor">ΕΠΙΚΟΙΝΩΝΙΑ</a>
                             </div>
@@ -48,7 +58,7 @@ const FinalMarinaSPA = () => {
                         textAlign = "text-center"
                         radiusRounded = ""
                         subtitle = "ΟΙ ΥΠΗΡΕΣΙΕΣ ΜΑΣ"
-                        title = "ΤΙ ΜΠΟΡΟΥΜΕ ΝΑ ΠΡΟΣΦΕΡΟΥΜΕ"
+                        title = "ΕΞΕΙΔΙΚΕΥΣΕΙΣ"
                         description = ""
                         />
                 </div>
@@ -65,9 +75,15 @@ const FinalMarinaSPA = () => {
 
     <div id="mediation">
         <SlpitOne />{/* What is mediation */}
-        <SlipFour />{/* Why us  */}
-        <SplitOneTwo/>{/* Mediation training  */}
         <Separator />
+    </div>
+
+    <div id="why-us">
+        <SlipFour />{/* Why us  */}
+    </div>
+
+    <div id="mediationtraining">
+        <SplitOneTwo/>{/* Mediation training  */}
     </div>
 
     <div id="practitioner">

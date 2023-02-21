@@ -6,116 +6,48 @@ import GalleryOne from "./GalleryOne";
 const PopupData = [
     {
         id: "01",
-        image: "./images/portfolio/portfolio-01.jpg",
+        image: "./images/compressed/office-1.JPG",
         popupLink: [
-            './images/portfolio/portfolio-01.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-03.jpg',
-            './images/portfolio/portfolio-04.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-05.jpg',
+            './images/compressed/office-1.JPG',
         ],
     },
     {
         id: "02",
-        image: "./images/portfolio/portfolio-02.jpg",
+        image: "./images/compressed/office-2.JPG",
         popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
+            './images/compressed/office-2.JPG',
         ],
     },
     {
         id: "03",
-        image: "./images/portfolio/portfolio-03.jpg",
+        image: "./images/compressed/office-3.JPG",
         popupLink: [
-            './images/portfolio/portfolio-03.jpg',
+            './images/compressed/office-3.JPG',
         ],
     },
     {
         id: "04",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "./images/compressed/office-4.JPG",
         popupLink: [
-            './images/portfolio/portfolio-04.jpg',
+            './images/compressed/office-4.JPG',
         ],
     },
     {
         id: "05",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "./images/compressed/office-5.JPG",
         popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
+            './images/compressed/office-5.JPG',
         ],
     },
     {
         id: "06",
-        image: "./images/portfolio/portfolio-05.jpg",
+        image: "./images/compressed/office-6.JPG",
         popupLink: [
-            './images/portfolio/portfolio-05.jpg',
+            './images/compressed/office-6.JPG',
         ],
     },
 ]
 
-const PopupData2 = [
-    {
-        id: "01",
-        image: "./images/portfolio/portfolio-01.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-01.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-03.jpg',
-            './images/portfolio/portfolio-04.jpg',
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-            './images/portfolio/portfolio-05.jpg',
-        ],
-    },
-    {
-        id: "02",
-        image: "./images/portfolio/portfolio-02.jpg",
-        popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-        ],
-    },
-    {
-        id: "03",
-        image: "./images/portfolio/portfolio-03.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-03.jpg',
-        ],
-    },
-    {
-        id: "04",
-        image: "./images/portfolio/portfolio-04.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-04.jpg',
-        ],
-    },
-    {
-        id: "05",
-        image: "./images/portfolio/portfolio-04.jpg",
-        popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
-        ],
-    },
-    {
-        id: "06",
-        image: "./images/portfolio/portfolio-05.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-05.jpg',
-        ],
-    },
-    {
-        id: "07",
-        image: "./images/portfolio/portfolio-06.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-06.jpg',
-        ],
-    },
-    {
-        id: "08",
-        image: "./images/portfolio/portfolio-01.jpg",
-        popupLink: [
-            './images/portfolio/portfolio-01.jpg',
-        ],
-    },
-]
 
 const Elements = () => {
     return (
@@ -129,8 +61,8 @@ const Elements = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Gallery With Lightbox"
-                                        title = "Gallery Style One."
+                                        subtitle = "ΓΚΑΛΕΡΙ"
+                                        title = "Ο ΧΩΡΟΣ ΜΑΣ"
                                         description = ""
                                     />
                                 </div>

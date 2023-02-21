@@ -212,6 +212,7 @@ p {
 	font-weight: var(--p-regular);
 	color: var(--color-body);
 	margin: 0 0 30px;
+	text-align:justify;
 
 	@media #{$sm-layout} {
 		margin: 0 0 20px;
@@ -284,6 +285,13 @@ p {
 	line-height: var(--line-height-b4);
 }
 
+.header-right p{
+	font-size: 12px;
+	margin: 0 0 0px;
+		@media #{$sm-layout} {
+			display:none;
+			}
+}
 
 table {
 	border-collapse: collapse;
@@ -355,7 +363,7 @@ ul {
 	}
 
 	li {
-		font-size: var(--font-size-b1);
+		font-size: 16px;
 		line-height: var(--line-height-b1);
 		margin-top: 10px;
 		margin-bottom: 10px;

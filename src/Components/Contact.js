@@ -15,8 +15,8 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Form"
-                                        title = "Επικοινωνία"
+                                        subtitle = "ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ"
+                                        title = "ΕΠΙΚΟΙΝΩΝΙΑ"
                                         description = ""
                                     />
                                 </div>
