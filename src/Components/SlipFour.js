@@ -60,7 +60,7 @@ const SlipFour = () => {
                     </div>
                     <div className="order-1 order-lg-2 col-lg-12 col-xl-6 col-12">
                         <div className="thumbnail">
-                            <img src="./images/compressed/why-us-cropped.JPG" alt="split Images" />
+                            <img src="./images/compressed/why-us.JPG" alt="Why us" />
                         </div>
                     </div>
                 </div>
